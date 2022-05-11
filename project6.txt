@@ -1,0 +1,89 @@
+FIRST ANALYSIS [TWITTER]:
+
+ a                     b
+0        Chelsea Rider             Joe Rogan
+1          Katy DeLeon  Predictive Analytics
+2  Computational Legal        Andrew Bridges
+3       Leigh Cressman  Predictive Analytics
+4      Jacques de Vrij     James D. Williams
+
+29210
+
+30519
+
+Predictive Analytics    16753
+Computational Legal      7096
+Chelsea Rider            2607
+Legal Tracker            1847
+James D. Williams        1696
+Strathclyde U IT Law      429
+Johnny Halftime            57
+Biyu Hua                   29
+Sue Ellen Soussloff        13
+NaN                         5
+
+Predictive Analytics    4.224093
+Computational Legal     3.851014
+Chelsea Rider           3.416141
+Legal Tracker           3.266467
+James D. Williams       3.229426
+  
+Carlos A Sousa          0.000000
+Thomas Eastlake         0.000000
+Blue Horseshoe          0.000000
+AndrÃ© Mafei            0.000000
+Dan Gartung             0.000000
+
+0.00013694409257420658
+
+
+
+SECOND ANALYSIS [ASIA]:
+
+ node_1  node_2
+0       0     747
+1       1    4257
+2       1    2194
+3       1     580
+4       1    6478
+
+7624
+
+27806
+
+7237    216
+3530    175
+4785    174
+524     172
+3450    159
+2510    140
+3597    124
+6101    119
+5127    119
+2854    119
+
+0       0.000131
+747     0.001049
+1       0.001312
+4257    0.003542
+2194    0.003017
+
+7594    0.000131
+7276    0.000131
+7277    0.000131
+7420    0.000131
+7505    0.000131
+
+'''
+Description:
+The second analysis graph gives a depiction of edges and nodes from LastFM users from 
+Asian countries mutual follower.
+
+
+Interesting qualitative observation:
+One thing I found interesting in the second analysis network graph is that
+when nx.k_core(k, 13), the connection between these networks are split into
+their own corners rather than all together. When nx.k_core(k, 12), all the
+networks are togther.
+
+'''
